@@ -1,0 +1,33 @@
+.flex-parent-container {
+  display: flex;
+  gap: 15px;
+}
+
+.box {
+  background-color: tomato;
+  padding: 15px;
+  flex-grow: 1;
+  width: 27%;
+}
+
+.box-1 {
+  /* order: 1; */
+}
+.box-2 {
+  /* order: 1; */
+}
+.box-3 {
+  /* order: 1; */
+  /* flex-grow: 2; */
+}
+
+.flex-2-box {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+}
+.item {
+  background-color: tomato;
+  padding: 15px;
+  border: 1px solid #000;
+}
