@@ -5,3 +5,18 @@
 h1 {
   font-size: 50px;
 }
+
+/* Icon section */
+.icon-main-title {
+  text-align: center;
+}
+.icon-container-flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.icon-card {
+  text-align: center;
+  flex-basis: 28%;
+  flex-grow: 1;
+}
