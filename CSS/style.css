@@ -17,6 +17,11 @@ h1 {
 }
 .icon-card {
   text-align: center;
-  flex-basis: 28%;
+  flex-basis: 23%;
   flex-grow: 1;
+}
+
+.icon-card-5,
+.icon-card-6 {
+  flex-grow: 0;
 }
